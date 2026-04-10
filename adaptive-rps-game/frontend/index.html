@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adaptive RPS Game</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background: #f4f4f4; }
+        .choices button { font-size: 20px; margin: 10px; padding: 10px 20px; cursor: pointer; }
+        #stats { margin-top: 20px; color: #555; }
+    </style>
+</head>
+<body>
+    <h1>Real-Time Adaptive RPS</h1>
+    <div class="choices">
+        <button onclick="play('ROCK')">Rock</button>
+        <button onclick="play('PAPER')">Paper</button>
+        <button onclick="play('SCISSORS')">Scissors</button>
+    </div>
+    <h2 id="displayResult">Choose a move to start!</h2>
+    <div id="stats">System is analyzing your patterns...</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
